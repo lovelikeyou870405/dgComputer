@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/web03.css">
+    <title>網頁header變化練習</title>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY>0);
+        })
+    </script>
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">內容1</a></li>
+            <li><a href="#">內容2</a></li>
+            <li><a href="#">關於我們</a></li>
+        </ul>
+    </header>
+
+    <section class="banner"></section>
+</body>
+</html>
