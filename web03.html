@@ -11,20 +11,70 @@
             var header = document.querySelector("header");
             header.classList.toggle("sticky",window.scrollY>0);
         })
+
+        function cleanAds(){
+            var ads = document.getElementById('ads');
+            ads.style.display = 'none';
+        }
     </script>
 
 </head>
 <body>
+    <div class="ads" id="ads">浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告浮動廣告<span class="clean" onclick="cleanAds()">X</span></div>
     <header>
         <a href="#" class="logo">Logo</a>
         <ul>
             <li><a href="#">首頁</a></li>
-            <li><a href="#">內容1</a></li>
-            <li><a href="#">內容2</a></li>
+            <li><a href="#content1">內容1</a></li>
+            <li><a href="#content2">內容2</a></li>
             <li><a href="#">關於我們</a></li>
         </ul>
     </header>
-
-    <section class="banner"></section>
+    <div class="banner"></div>
+    <hr id="content1">
+    <section class="content1">
+        <h3>內容1</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel, quos, similique laudantium tenetur voluptas vitae, incidunt ipsam placeat maiores consequatur atque rerum veniam facilis facere cupiditate. Nisi, soluta veritatis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel, quos, similique laudantium tenetur voluptas vitae, incidunt ipsam placeat maiores consequatur atque rerum veniam facilis facere cupiditate. Nisi, soluta veritatis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium illo ea laborum aliquid amet est laboriosam quaerat possimus, nam et quidem voluptatem, exercitationem illum ducimus reprehenderit magnam incidunt sequi placeat?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis vero aperiam excepturi aliquam asperiores voluptates perferendis ab at culpa numquam alias veniam est maiores impedit iste sequi, provident, libero deserunt dicta odit natus. Excepturi architecto aut molestias, labore voluptatibus perferendis dicta asperiores expedita quibusdam ex dolorem necessitatibus eveniet aliquid blanditiis pariatur corrupti deleniti incidunt quasi quisquam error! Libero sed perferendis quas accusantium voluptas? Ut blanditiis nostrum provident ratione quis earum!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero itaque aut minima labore quos rem fugit autem maxime nemo. Ipsam culpa fugiat quibusdam adipisci accusantium debitis eaque dolor fugit.
+        </p>
+    </section>
+    <hr id="content2">
+    <section class="content2">
+        <h3>內容2</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel, quos, similique laudantium tenetur voluptas vitae, incidunt ipsam placeat maiores consequatur atque rerum veniam facilis facere cupiditate. Nisi, soluta veritatis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel, quos, similique laudantium tenetur voluptas vitae, incidunt ipsam placeat maiores consequatur atque rerum veniam facilis facere cupiditate. Nisi, soluta veritatis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium illo ea laborum aliquid amet est laboriosam quaerat possimus, nam et quidem voluptatem, exercitationem illum ducimus reprehenderit magnam incidunt sequi placeat?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis vero aperiam excepturi aliquam asperiores voluptates perferendis ab at culpa numquam alias veniam est maiores impedit iste sequi, provident, libero deserunt dicta odit natus. Excepturi architecto aut molestias, labore voluptatibus perferendis dicta asperiores expedita quibusdam ex dolorem necessitatibus eveniet aliquid blanditiis pariatur corrupti deleniti incidunt quasi quisquam error! Libero sed perferendis quas accusantium voluptas? Ut blanditiis nostrum provident ratione quis earum!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero itaque aut minima labore quos rem fugit autem maxime nemo. Ipsam culpa fugiat quibusdam adipisci accusantium debitis eaque dolor fugit.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim vel, quos, similique laudantium tenetur voluptas vitae, incidunt ipsam placeat maiores consequatur atque rerum veniam facilis facere cupiditate. Nisi, soluta veritatis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium illo ea laborum aliquid amet est laboriosam quaerat possimus, nam et quidem voluptatem, exercitationem illum ducimus reprehenderit magnam incidunt sequi placeat?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis vero aperiam excepturi aliquam asperiores voluptates perferendis ab at culpa numquam alias veniam est maiores impedit iste sequi, provident, libero deserunt dicta odit natus. Excepturi architecto aut molestias, labore voluptatibus perferendis dicta asperiores expedita quibusdam ex dolorem necessitatibus eveniet aliquid blanditiis pariatur corrupti deleniti incidunt quasi quisquam error! Libero sed perferendis quas accusantium voluptas? Ut blanditiis nostrum provident ratione quis earum!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero itaque aut minima labore quos rem fugit autem maxime nemo. Ipsam culpa fugiat quibusdam adipisci accusantium debitis eaque dolor fugit.
+        </p>
+    </section>
+    <hr>
 </body>
 </html>
