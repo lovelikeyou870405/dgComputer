@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圈圈叉叉小遊戲</title>
+    <link rel="stylesheet" href="./css/web04.css">
+    <script src="./js/web04.js"></script>
+</head>
+<body>
+    <h1>OOXX</h1>
+    <div class="playground">
+        <span id="s1" onclick="spanOnclick(1)"></span>
+        <span id="s2" onclick="spanOnclick(2)"></span>
+        <span id="s3" onclick="spanOnclick(3)"></span>
+        <span id="s4" onclick="spanOnclick(4)"></span>
+        <span id="s5" onclick="spanOnclick(5)"></span>
+        <span id="s6" onclick="spanOnclick(6)"></span>
+        <span id="s7" onclick="spanOnclick(7)"></span>
+        <span id="s8" onclick="spanOnclick(8)"></span>
+        <span id="s9" onclick="spanOnclick(9)"></span>
+    </div>
+    <div class="bottomdiv">
+        <div id="state"><span id="who">player1</span>'s trun.</div>
+        <div onclick="restartGame()">restart</div>
+    </div>
+</body>
+</html>
