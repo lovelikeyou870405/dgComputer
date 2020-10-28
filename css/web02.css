@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1
+{
+    margin: 30px 0;
+    color: #BC35FF;
+    letter-spacing: 2px;
+    font-weight: 800;
+    transition: .5s;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+div.fontsCode
+{
+    width: 80%;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #E2E2E2;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    border: #d8baba;
+    background-color: #2C2C2C;
+}
+div.fontsCode p:nth-child(1)::before
+{
+    color: yellow;
+    content: "import on the top of css:\A";
+    white-space: pre-line;
+}
+div.fontsCode p:nth-child(2)::before
+{
+    color: yellow;
+    content: "import in the content of css:\A";
+    white-space: pre-line;
+}
+div.fontsExamlpe::before
+{
+    font-size: 1.5em;
+    font-weight: 800;
+    content: "Ex.";
+}
+div.fontsExamlpe
+{
+    width: 80%;
+    margin: 0 0 10px 0;
+    padding: 20px;
+    background-color: #DCF9FF;
+}
+p#righteous{
+    font-family: 'Righteous', cursive;
+}
+p#Orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+p#Sacramento
+{
+    font-size: 35px;
+    font-family: 'Sacramento', cursive;
+}
